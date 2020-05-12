@@ -14,14 +14,14 @@
   },
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e js,html,css,jsx"
+    "dev": "nodemon src/app.js -e js,html,css,jsx,hbs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NavneetSinghGill/portfolio.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Navneet Singh Gill",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NavneetSinghGill/portfolio/issues"

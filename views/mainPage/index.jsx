@@ -1,17 +1,23 @@
 import React from 'react';
-// var styles = require('./style.jsx');
-import '/static/mainPage/style.css';
+import Header from '../common/header';
+import Footer from '../common/footer';
+import GeneralIntro from '../common/generalIntro';
 
-function HelloMessage(props) {
-  return <div 
-  className = {styles.divStyle}
-  >
-      <h1>
-        Hello {props.name}
-        </h1>
-      </div>;
+const mainPage = (props) => {
+  return ([
+    <link rel="stylesheet" href="/public/mainPage/style.css" />,
+
+    <div id='main-body'>
+      <div id='main-body-center-header'>
+        <Header />
+        <GeneralIntro />
+      </div>
+      <Footer />
+    </div>
+
+  ]);
 }
 
 // HelloMessage.propTypes
 
-module.exports = HelloMessage;
+module.exports = mainPage;
