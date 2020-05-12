@@ -2,7 +2,7 @@ import React from 'react';
 
 const generalIntro = () => {
     return (
-        <div id='generalIntro'>
+        <div className='generalIntro'>
             <h2 className="generalIntro-heading">
                 HELLO, I AM NAVNEET
             </h2>

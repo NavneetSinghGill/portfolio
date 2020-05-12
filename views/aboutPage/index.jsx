@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from '../common/header';
 import Footer from '../common/footer';
-import GeneralIntro from '../common/generalIntro';
+import AboutInfo from '../common/aboutInfo';
 
-const mainPage = (props) => {
+const AboutPage = (props) => {
   return ([
     <link rel="stylesheet" href="/public/mainPage/style.css" />,
-
+    <link rel="stylesheet" href="/public/font-awesome/css/font-awesome.min.css" />,
+    
     <div id='main-body'>
       <div id='main-body-center-header'>
         <Header />
-        <GeneralIntro />
+        <AboutInfo />
       </div>
       <Footer />
     </div>
@@ -18,4 +19,4 @@ const mainPage = (props) => {
   ]);
 }
 
-module.exports = mainPage;
+module.exports = AboutPage;

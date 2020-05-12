@@ -7,8 +7,8 @@ const header = () => {
             <div id="header-content">
                 <HeaderButton title="NAVNEET SINGH GILL" url="/"/>
                 <div style={{flex:1}}></div>
-                <HeaderButton title="ABOUT"/>
-                <HeaderButton title="RESUME"/>
+                <HeaderButton title="ABOUT" url="/about"/>
+                {/* <HeaderButton title="RESUME"/> */}
             </div>
             <div id='divider'></div>
         </div>

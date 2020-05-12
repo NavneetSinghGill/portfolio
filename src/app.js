@@ -24,6 +24,10 @@ app.get('/', (req, res) => {
     res.render('mainPage/index.jsx');
 });
 
+app.get('/about', (req, res) => {
+    res.render('aboutPage/index.jsx');
+});
+
 app.get('*', (req, res) => {
     res.send('<h2>Page not found<h2>');
 })
