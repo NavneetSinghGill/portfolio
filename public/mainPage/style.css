@@ -7,7 +7,7 @@
 }
 html {
     height: 100%;
-    font-family: "Comic Sans MS", cursive, sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 div {
     display: flex;
