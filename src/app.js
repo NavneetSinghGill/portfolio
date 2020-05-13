@@ -28,6 +28,10 @@ app.get('/about', (req, res) => {
     res.render('aboutPage/index.jsx');
 });
 
+app.get('/resume', (req, res) => {
+    res.sendFile('./Resume.pdf', { root: __dirname });
+});
+
 app.get('*', (req, res) => {
     res.send('<h2>Page not found<h2>');
 })
