@@ -7,7 +7,7 @@ const mainPage = (props) => {
   return ([
     <link rel="stylesheet" href="/public/mainPage/style.css" />,
 
-    <div id='main-body'>
+    <div className='main-body'>
       <div id='main-body-center-header'>
         <Header />
         <GeneralIntro />

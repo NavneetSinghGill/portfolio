@@ -21,7 +21,7 @@ body {
     margin: 0px;
     min-height: 100%;
 }
-#main-body {
+.main-body {
     flex-direction: column;
     /* background-color: green; */
     /* padding: 2px; */
@@ -29,6 +29,11 @@ body {
     align-items: center;
     flex-grow: 1;
     /* margin: 0px; */
+}
+#main-body-background {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 1;
 }
 #main-body-center-header {
     flex-direction: column;
@@ -90,7 +95,7 @@ body {
     width: 70%;
 }
 .footer {
-    background-color: var(--footer-color);
+    background-color: rgba(242, 242, 242, 0);
     min-height: 150px;
     width: 100%;
     justify-content: center;
