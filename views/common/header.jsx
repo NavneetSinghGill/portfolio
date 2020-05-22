@@ -5,7 +5,7 @@ const header = () => {
     return (
         <div id='header'>
             <div id="header-content">
-                <HeaderButton title="NAVNEET SINGH GILL" url="/"/>
+                <HeaderButton title="NAVNEET SINGH GILL" url="/" transparent/>
                 <div style={{flex:1}}></div>
                 <HeaderButton title="ABOUT" url="/about"/>
                 <HeaderButton title="RESUME" url="/resume" target="_blank"/>

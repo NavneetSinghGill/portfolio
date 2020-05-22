@@ -51,12 +51,31 @@ body {
     display: flex;
     align-items: center;
     color: var(--heading-color);
-    font-size: 1.4em;
+    font-size: 1.2em;
     /* font-family: sans-serif; */
     margin: 20px;
     text-align: center;
     font-weight: normal;
 }
+.headerButtonAnimation {
+    color: transparent;
+    animation: headerAnimate 15s infinite;
+    background: linear-gradient(to right,#f00, #0ff, #0f0, #00f);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+}
+@keyframes headerAnimate {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
 #header #divider {
     background-color: var(--heading-color);
     height: 3px;

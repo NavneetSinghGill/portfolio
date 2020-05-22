@@ -5,9 +5,15 @@ const headerButton = (props) => {
     if(props.target) {
         target = props.target
     } 
+    
+    var classOfHeaderButton = "headerButton";
+    if(props.transparent) {
+        classOfHeaderButton = "headerButton headerButtonAnimation";
+    }
+
     return (
         <h1 className='headerButton'>
-            <a className="headerButtonLink" href={props.url} target={target}>{props.title}</a>
+            <a className={classOfHeaderButton} href={props.url} target={target}>{props.title}</a>
         </h1>
     );
 }
