@@ -1,7 +1,15 @@
 const express = require('express');
 const path = require('path');
+const databaseInterface = require('./Files/databaseInterface');
+const CONSTANTS = require('./Files/Constants');
 
 const port = process.env.PORT || 3000
+
+if(process.argv[2] == "production") {
+    CONSTANTS.ISLOCALENVIRONMENT = false;
+} else {
+    CONSTANTS.ISLOCALENVIRONMENT = true;
+}
 
 const app = express();
 
@@ -16,6 +24,12 @@ const parentDirectoryPath = path.join(__dirname, '../public')
 app.use('/public', express.static(parentDirectoryPath));
 
 // app.set('view engine', 'ejs');
+
+app.use((req, res, next) => {
+    console.log(req.ip);
+    databaseInterface.saveIP(req.ip);
+    next();
+})
 
 app.get('/', (req, res) => {
     // res.send('<h1>Navneet Singh Gill</h1>');

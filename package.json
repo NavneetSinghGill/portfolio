@@ -1,6 +1,6 @@
 {
   "name": "Portfolio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e js,html,css,jsx,hbs"
+    "dev": "nodemon src/app.js -e js,html,css,jsx,hbs",
+    "devp": "nodemon src/app.js production -e js,html,css,jsx,hbs"
   },
   "repository": {
     "type": "git",
