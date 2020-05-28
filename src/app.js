@@ -25,16 +25,8 @@ app.use('/public', express.static(parentDirectoryPath));
 
 // app.set('view engine', 'ejs');
 
-app.use((req, res, next) => {
-    console.log(req.ip);
-    databaseInterface.saveIP(req.ip);
-    next();
-})
-
 app.get('/', (req, res) => {
-    // res.send('<h1>Navneet Singh Gill</h1>');
-    // res.render('index');
-    // res.sendFile('./src/index.html', { root: viewsPath });
+    databaseInterface.saveIP(req.ip);
     res.render('mainPage/index.jsx');
 });
 
