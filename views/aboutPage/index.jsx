@@ -4,6 +4,7 @@ import Footer from '../common/footer';
 import AboutInfo from './containers/aboutInfo';
 import Experience from './containers/experience';
 import Education from './containers/education';
+import Projects from './containers/projects';
 
 const AboutPage = (props) => {
   return ([
@@ -16,6 +17,7 @@ const AboutPage = (props) => {
         <AboutInfo />
         <Experience />
         <Education />
+        {/* <Projects /> */}
       </div>
       <Footer />
     </div>

@@ -1,8 +1,19 @@
+@media (min-aspect-ratio: 4/3) {  
+    :root {
+        --content-percentage: 60%;
+        font-size: 1em;
+    }
+  }
+@media (max-aspect-ratio: 4/3) {  
+:root {
+    --content-percentage: 100%;
+    font-size: 1.5em;
+}
+}
 :root {
     --heading-color: #2980B9;
     --subheading-color: #2C3E50;
     --footer-color: #f2f2f2;
-    --content-percentage: 60%;
     --grey-heading: #999999;
     --grey-subheading: #9c9c9c;
 }
@@ -107,6 +118,7 @@ body {
     margin: 0.5em;
     text-align: center;
     width: 70%;
+    align-items: center;
 }
 .footer {
     background-color: var(--footer-color);
@@ -135,6 +147,7 @@ body {
 a {
     color: var(--subheading-color);
     text-decoration: none;
+    vertical-align: bottom;
 }
 
 .social-media-icon {
@@ -148,6 +161,9 @@ a {
 .n-noMarginPadding {
     margin: 0;
     padding: 0;
+}
+.n-columnCenter {
+    align-items: center;
 }
 .para-about {
     font-size: 1.5rem;
