@@ -21,9 +21,31 @@ const AboutInfo = () => {
                     Apart from this I like to spend time reading and experimenting with new techs and play chess as well as computer games.
                 </p>
             <div style={{width:"50%", justifyContent: "space-around", marginBottom: "2em"}}>
-                <a href="mailto:gill15q@uwindsor.ca?subject=Hello!" target="_blank" title="Email" className="fa fa-envelope fa-5x social-media-icon"></a>
-                <a href="https://www.linkedin.com/in/navneet-singh-gill-9a113aa9/" target="_blank" title="LinkedIn" className="fa fa-linkedin fa-5x social-media-icon" ></a>
-                <a href="https://github.com/NavneetSinghGill" target="_blank" title="GitHub" className="fa fa-github fa-5x social-media-icon" ></a>
+                <a 
+                href="mailto:gill15q@uwindsor.ca?subject=Hello!" 
+                target="_blank" 
+                title="Email" 
+                className="fa fa-envelope fa-5x social-media-icon"></a>
+                <a 
+                href="https://www.linkedin.com/in/navneet-singh-gill-9a113aa9/" 
+                target="_blank" 
+                title="LinkedIn" 
+                className="fa fa-linkedin fa-5x social-media-icon" ></a>
+                <a 
+                href="https://github.com/NavneetSinghGill" 
+                target="_blank" 
+                title="GitHub" 
+                className="fa fa-github fa-5x social-media-icon" ></a>
+                <a 
+                href="https://stackoverflow.com/users/7333538/navneet-gill" 
+                target="_blank" 
+                title="Stack overflow" 
+                className="fa fa-stack-overflow fa-5x social-media-icon" ></a>
+                <a 
+                href="https://www.codechef.com/users/misfits9virus" 
+                target="_blank" 
+                title="Codechef" 
+                className="fa fa-code fa-5x social-media-icon" ></a>
             </div>
         </div>
     );
