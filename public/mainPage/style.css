@@ -145,6 +145,10 @@ a {
     text-align: left;
     float: left;
 }
+.n-noMarginPadding {
+    margin: 0;
+    padding: 0;
+}
 .para-about {
     font-size: 1.5rem;
 }

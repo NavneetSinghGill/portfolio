@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../common/header';
 import Footer from '../common/footer';
-import AboutInfo from '../common/aboutInfo';
+import AboutInfo from './containers/aboutInfo';
+import Experience from './containers/experience';
 
 const AboutPage = (props) => {
   return ([
@@ -12,6 +13,7 @@ const AboutPage = (props) => {
       <div id='main-body-center-header'>
         <Header />
         <AboutInfo />
+        <Experience />
       </div>
       <Footer />
     </div>
