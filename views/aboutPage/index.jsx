@@ -3,6 +3,7 @@ import Header from '../common/header';
 import Footer from '../common/footer';
 import AboutInfo from './containers/aboutInfo';
 import Experience from './containers/experience';
+import Education from './containers/education';
 
 const AboutPage = (props) => {
   return ([
@@ -14,6 +15,7 @@ const AboutPage = (props) => {
         <Header />
         <AboutInfo />
         <Experience />
+        <Education />
       </div>
       <Footer />
     </div>
