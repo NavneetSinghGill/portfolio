@@ -149,7 +149,11 @@ a {
     text-decoration: none;
     vertical-align: bottom;
 }
-
+.iframeCertification {
+    border: 1px;
+    display: block;
+    pointer-events: none !important;
+  }
 .social-media-icon {
     margin: 0.2em;
     color: var(--heading-color);
@@ -167,4 +171,12 @@ a {
 }
 .para-about {
     font-size: 1.5rem;
+}
+.collectionCell {
+    @media (min-aspect-ratio: 4/3) {
+        width: 50%;
+    }
+    @media (max-aspect-ratio: 4/3) {
+        width: 100%;
+    }
 }
