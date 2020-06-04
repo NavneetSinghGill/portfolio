@@ -34,6 +34,18 @@ const Projects = () => {
                     hostWebsite='LinkedInLearning'
                     />
                 </div>
+                <div className='generalIntro' style={{flexDirection: 'row', justifyContent:'space-evenly'}}>
+                    <Entity 
+                    name="Spark Fundamentals"
+                    link='/public/certifications/Spark.pdf'
+                    hostWebsite='CognitiveClass.ai'
+                    />
+                    <Entity 
+                    name="Hadoop 101"
+                    link='/public/certifications/Hadoop.pdf'
+                    hostWebsite='CognitiveClass.ai'
+                    />
+                </div>
             </div>
         </div>
     );
