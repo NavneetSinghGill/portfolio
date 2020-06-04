@@ -5,6 +5,7 @@ import GeneralIntro from '../common/generalIntro';
 
 const trafficTracker = (props) => {
   return ([
+    <link rel="shortcut icon" href="/public/images/favicon.png" />,
     <link rel="stylesheet" href="/public/mainPage/style.css" />,
 
     <div id='main-body'>

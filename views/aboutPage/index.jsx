@@ -9,6 +9,7 @@ import Certifications from './containers/certifications';
 
 const AboutPage = (props) => {
   return ([
+    <link rel="shortcut icon" href="/public/images/favicon.png" />,
     <link rel="stylesheet" href="/public/mainPage/style.css" />,
     <link rel="stylesheet" href="/public/font-awesome/css/font-awesome.min.css" />,
     
