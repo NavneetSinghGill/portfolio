@@ -6,15 +6,26 @@ const Skills = () => {
         <div className='generalIntro'>
 
             <h2 className="generalIntro-heading n-left">
-                SKILLS
+                PROFICIENCIES
             </h2>
 
-            <div style={{
-                width:'100%',
-                height:'100vw'
-            }}>
+            <Entity 
+                title="Languages"
+                values="Swift, React, Python, SQL, Node.js, C, Bash, Objective-C, Java"
+            />
+            <Entity 
+                title="Database"
+                values="MySQL, NoSQL MongoDB"
+            />
+            <Entity 
+                title="Tools"
+                values="Git, JIRA, Confluence, GitHub, AWS, Heroku"
+            />
+            <Entity 
+                title="Subjects"
+                values="Data structures, OOPs, Algorithms, Ad. Systems programming"
+            />
 
-            </div>
         </div>
     );
 }

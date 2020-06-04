@@ -18,7 +18,7 @@ const AboutPage = (props) => {
       <div id='main-body-center-header'>
         <Header />
         <AboutInfo />
-        {/* <Skills /> */}
+        <Skills />
         <Education />
         <Experience />
         <Projects />
