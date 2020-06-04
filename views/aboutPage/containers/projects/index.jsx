@@ -37,8 +37,8 @@ const Projects = () => {
                 name="E-Portfolio"
                 workingDuration="(December 2020 - Present)"
                 skills="React, Node, Express, MongoDB, Git"
-                link='http://nsg-basic-mern-app.herokuapp.com/'
-                github='https://github.com/NavneetSinghGill/MotionAnalysis'
+                link='http://portfolio.navneetsinghgill.xyz/'
+                github='https://github.com/NavneetSinghGill/portfolio'
                 points={[
                     "After the basic understanding of MERN stack from E-motion analysis I went a step up",
                     "I created a much more modular and cleaner project with as many common components as possible using React",
