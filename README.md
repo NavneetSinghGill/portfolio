@@ -8,3 +8,4 @@
 - [x] Add analytics and save in MongoDB
 - [ ] Create tracking page to see visitors
 - [ ] Add animations and background
+- [ ] Add bot to provide on the spot information
