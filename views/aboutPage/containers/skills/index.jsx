@@ -23,7 +23,7 @@ const Skills = () => {
             />
             <Entity 
                 title="Subjects"
-                values="Data structures, OOPs, Algorithms, Ad. Systems programming"
+                values="Data structures, OOPs, Algorithms, Software engineering, Computer networks, DBMS, Advanced Systems programming"
             />
 
         </div>
