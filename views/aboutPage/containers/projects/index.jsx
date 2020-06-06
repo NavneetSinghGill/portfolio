@@ -17,8 +17,9 @@ const Projects = () => {
                 github='https://github.com/NavneetSinghGill/MotionAnalysis'
                 // description="Software Developer"
                 points={[
-                    "Used Node.js with express to build the server-side of the app",
+                    "Used Node.js with express to build the server-side of the app and MongoDB for data storage",
                     "Created multiple APIs and React components to serve modularity and reusability",
+                    "Deployed the application on Heroku for production release",
                     "Data cleaning, processing, and visualisation using JS, and React",
                 ]}
             />
@@ -41,7 +42,7 @@ const Projects = () => {
                 github='https://github.com/NavneetSinghGill/portfolio'
                 points={[
                     "After the basic understanding of MERN stack from E-motion analysis I went a step up",
-                    "I created a much more modular and cleaner project with as many common components as possible using React",
+                    "Created a much more modular and cleaner project with as many common components as possible using React",
                     "The project is fully React-based and uses flexbox to tackle the responsiveness",
                     "Learned how to animate and have a deeper understanding of CSS along with view engines in Node"
                 ]}
