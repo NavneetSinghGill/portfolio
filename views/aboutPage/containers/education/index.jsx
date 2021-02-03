@@ -11,13 +11,13 @@ const Education = () => {
 
                 <Entity 
                 firmName="University of Windsor"
-                workingDuration="(Sep 2019 - Present)"
+                workingDuration="(Sep 2019 - Dec 2020)"
                 title="Master of Applied Computing"
                 />
 
                 <Entity 
-                firmName="Rajiv Gandhi Technical University"
-                workingDuration="(2011 - 2015)"
+                firmName="Acropolis Institutions"
+                workingDuration="(July 2011 - May 2015)"
                 title="Bachelors of Engineering (IT)"
                 />  
                     

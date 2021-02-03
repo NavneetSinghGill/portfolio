@@ -11,7 +11,7 @@ const Experience = () => {
 
                 <Entity 
                 firmName="Sherry and Sherry"
-                workingDuration="(Seo 2020 - Present)"
+                workingDuration="(Sep 2020 - Present)"
                 title="Software Developer"
                 points={[
                     "Working as a researcher, developer and tester (TDD) for the new browser extension application",
@@ -25,10 +25,11 @@ const Experience = () => {
                 workingDuration="(Aug 2018 - July 2019)"
                 title="Software Developer"
                 points={[
-                    "Front end iOS development of CasaDigi, which is a home automation product",
-                    "Active participation in decision making of the product architecture and all of SDLC",
-                    "Focused on testing for a more stable product delivery",
-                    "Actively worked in the Agile environment to be productive and flexible simultaneously"
+                    "Designed UX and implemented the architecture of IoT application using Swift and Objective-C with bridging",
+                    "Implemented SQLite and keychain storage along with RSA encryption",
+                    "Integrated HTTP, SOAP, and REST APIs and Sockets for CRUD operations and hardware (TV, music system, AC, etc) control using iPad/iPhone",
+                    "Actively worked in the Agile environment to be productive and flexible simultaneously",
+                    "Participated in decision making of the product architecture and all of SDLC",
                 ]}
                 />
 
@@ -37,9 +38,11 @@ const Experience = () => {
                 workingDuration="(Aug 2017 - July 2018)"
                 title="iOS Developer"
                 points={[
-                    "Started iOS development at the firm",
-                    "Showed leadership and ownership by a team of 2 during the working time",
-                    "Worked as a member of a virtual team, based worldwide",
+                    "Established an iOS team and led 3 projects",
+                    "Implemented a new payment application to build pay-as-you-go service",
+                    "Integrated face recognition, credit card and bar code reading capabilities",
+                    "Created certificates and provisioning profiles; and deployed production iOS application on Appstore, and for internal and external testing (staging) using Fastlane",
+                    "Created multiple Pods (open-source libraries) to distribute in community and self-growth",
                     "Involved in active documentation in code management tools with Jira, Confluence, and Git"
                 ]}
                 />
@@ -49,10 +52,11 @@ const Experience = () => {
                 workingDuration="(June 2015 - July 2017)"
                 title="Associate Software Engineer"
                 points={[
-                    "Mostly involved in small teams which focused on a fast-paced development",
-                    "Participation in backend database structuring for making front end app less complex and more user-friendly",
-                    "Improved as a passionate self-driven individual having concentration mainly on continuous learning",
-                    "Adopted Waterfall method for small level projects"
+                    "Implemented 15+ projects based on Swift, Objective-C",
+                    "Created E-commerce, chat applications and extensive animation apps individually and/or with team",
+                    "Implemented apps based on iCloud, push notifications, and more",
+                    "Adopted Waterfall and Incremental models for small to medium level projects",
+                    "Participation in backend database RESTful APIs for making iOS apps flexible, and less complex"
                 ]}
                 />        
                     

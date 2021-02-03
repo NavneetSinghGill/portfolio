@@ -11,11 +11,15 @@ const Skills = () => {
 
             <Entity 
                 title="Languages"
-                values="Swift, React, Python, SQL, Node.js, C, Bash, Objective-C, Java"
+                values="Swift, Objective-C, SQL, Node.js, React, C, Python, Bash, Java"
             />
             <Entity 
                 title="Database"
-                values="MySQL, NoSQL MongoDB"
+                values="MySQL, NoSQL MongoDB, CoreData, SQLite, PostGre SQL"
+            />
+            <Entity 
+                title="IDE"
+                values="XCode, Visual Studio Code"
             />
             <Entity 
                 title="Tools"
