@@ -8,17 +8,17 @@ const AboutInfo = () => {
                 </h2>
                 <p className="generalIntro-subheading n-left">
                     I am a passionate self-driven <b>Software Engineer</b>. 
-                    I am currently living in Windsor ON Canada.
+                    I am currently living in North Bay ON Canada.
                 </p>
                 <p className="generalIntro-subheading n-left">
                     I grew up in India and my love for tech led me to pursue a Bachelor of Engineering in IT. 
                     I further worked mostly as an iOS and MERN stack application developer in a couple of firms for about <b>4+ years</b> which drastically improved my problem solving and analytical skills along with professionalism.
                 </p>
                 <p className="generalIntro-subheading n-left">
-                    Currently, I am pursuing a Master of Applied Computing from the University of Windsor and <b>looking for an internship for Fall 2020</b>.
+                    Later, I am pursued a Master of Applied Computing from the University of Windsor and started working as a Software engineer. Currently I am <b>looking for a full-time oppotunity</b> where I could experience growth both technically and professionally.
                 </p>
                 <p className="generalIntro-subheading n-left">
-                    Apart from this I like to spend time reading and experimenting with new techs and play chess as well as computer games.
+                    Apart from this I like to spend time reading and experimenting with new techs, and play computer games.
                 </p>
             <div style={{width:"50%", justifyContent: "space-around", marginBottom: "2em"}}>
                 <a 
