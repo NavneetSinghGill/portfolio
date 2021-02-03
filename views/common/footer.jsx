@@ -11,7 +11,7 @@ const footer = () => {
                 </p>
                 <p className="footer-content">
                     or drop an email on
-                    <a href="mailto:gill15q@uwindsor.ca?subject=Hello!"> gill15q@uwindsor.ca</a>
+                    <a href="mailto:navneet105gill@gmail.com?subject=Hello!"> navneet105gill@gmail.com</a>
                 </p>
             </div>
         </div>

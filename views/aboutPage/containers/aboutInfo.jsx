@@ -22,7 +22,7 @@ const AboutInfo = () => {
                 </p>
             <div style={{width:"50%", justifyContent: "space-around", marginBottom: "2em"}}>
                 <a 
-                href="mailto:gill15q@uwindsor.ca?subject=Hello!" 
+                href="mailto:navneet105gill@gmail.com?subject=Hello!" 
                 target="_blank" 
                 title="Email" 
                 className="fa fa-envelope fa-5x social-media-icon"></a>
