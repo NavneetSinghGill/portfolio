@@ -10,6 +10,17 @@ const Experience = () => {
                 </h2>
 
                 <Entity 
+                firmName="Sherry and Sherry"
+                workingDuration="(Seo 2020 - Present)"
+                title="Software Developer"
+                points={[
+                    "Working as a researcher, developer and tester (TDD) for the new browser extension application",
+                    "Designed and Implemented a Microsoft azure database which connects with multiple Point-of-sales system and the middleware along with Shopify",
+                    "Tester for the iOS application “The game of things” which is a card game where I focused on breaking the flow and list in JIRA",
+                ]}
+                />
+
+                <Entity 
                 firmName="CASADIGI"
                 workingDuration="(Aug 2018 - July 2019)"
                 title="Software Developer"
