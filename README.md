@@ -1,6 +1,6 @@
 # Portfolio
 
-My E-Portfolio can be accessed [here](http://portfolio.navneetsinghgill.com)
+My E-Portfolio can be accessed [here](http://navneetsinghgill.com)
   
 ## Task List
 - [x] Create UI using React
