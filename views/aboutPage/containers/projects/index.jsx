@@ -38,7 +38,7 @@ const Projects = () => {
                 name="E-Portfolio"
                 workingDuration="(December 2020 - Present)"
                 skills="React, Node, Express, MongoDB, Git"
-                link='http://portfolio.navneetsinghgill.xyz/'
+                link='http://navneetsinghgill.com'
                 github='https://github.com/NavneetSinghGill/portfolio'
                 points={[
                     "After the basic understanding of MERN stack from E-motion analysis I went a step up",
