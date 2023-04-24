@@ -7,15 +7,15 @@ const AboutInfo = () => {
                     ABOUT
                 </h2>
                 <p className="generalIntro-subheading n-left">
-                    I am a passionate self-driven <b>Software Engineer</b>. 
-                    I am currently living in North Bay ON Canada.
+                    I am a passionate self-driven <b>Software Engineer</b> with over 6 years of mobile development experience
+                    I currently live in Mississauga ON Canada.
                 </p>
                 <p className="generalIntro-subheading n-left">
                     I grew up in India and my love for tech led me to pursue a Bachelor of Engineering in IT. 
-                    I further worked mostly as an iOS and MERN stack application developer in a couple of firms for about <b>4+ years</b> which drastically improved my problem solving and analytical skills along with professionalism.
+                    I further worked mostly as an iOS and MERN stack application developer for about <b>4+ years</b> which drastically improved my problem solving and analytical skills.
                 </p>
                 <p className="generalIntro-subheading n-left">
-                    Later, I am pursued a Master of Applied Computing from the University of Windsor and started working as a Software engineer. Currently I am <b>looking for a full-time oppotunity</b> where I could experience growth both technically and professionally.
+                    Later, I pursued a Master of Applied Computing from the University of Windsor and then worked with CIBC and HSBC as a Senior iOS Developer. 
                 </p>
                 <p className="generalIntro-subheading n-left">
                     Apart from this I like to spend time reading and experimenting with new techs, and play computer games.

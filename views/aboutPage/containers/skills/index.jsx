@@ -14,12 +14,16 @@ const Skills = () => {
                 values="Swift, Objective-C, SQL, Node.js, React, C, Python, Bash, Java"
             />
             <Entity 
+                title="Mobile development skills"
+                values="SwiftUI, UIKit, Autolayout/Storyboards, RxSwift, SPM, RESTful APIs, iCloud, XCTests"
+            />
+            <Entity 
                 title="Database"
                 values="MySQL, NoSQL MongoDB, CoreData, SQLite, PostGre SQL"
             />
             <Entity 
-                title="IDE"
-                values="XCode, Visual Studio Code"
+                title="Tools/SDK"
+                values="XCode, Sketch, AWS, GitHub, Git, JIRA, Confluence, Appcenter, Firebase"
             />
             <Entity 
                 title="Tools"

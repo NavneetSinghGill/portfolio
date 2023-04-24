@@ -10,11 +10,32 @@ const Experience = () => {
                 </h2>
 
                 <Entity 
-                firmName="Sherry and Sherry"
-                workingDuration="(Sep 2020 - Present)"
-                title="Software Developer"
+                firmName="HSBC"
+                workingDuration="(Jul 2022 - Feb 2023)"
+                title="iOS Developer (Contract)"
                 points={[
-                    "Working as a researcher, developer and tester (TDD) for the new browser extension application",
+                    "Contributed as an agile iOS developer on different region-based projects, with small to large-scale libraries for the HSBC global app with Test-driven approach using SwiftUI and UIKit",
+                    "Implemented XCTests, UITests, and snapshot testing for better reliable code with API handling",
+                    "Worked as a team member for maintaining Github and add new features using Swift practices with VIPER and MVVM design pattern",
+                ]}
+                />
+
+                <Entity 
+                firmName="CIBC"
+                workingDuration="(Apr 2021 - Jun 2022)"
+                title="Sr. Application Developer (Full-time)"
+                points={[
+                    "Worked as an iOS developer for the CIBC main app which is a mix of Objective-C and Swift along with custom frameworks for maintaining and improving the global app",
+                    "Contributed as an Individual and a team member for the upcoming features using the latest Swift practices with CLEAN swift architecture being the design pattern",
+                ]}
+                />
+
+                <Entity 
+                firmName="Sherry and Sherry"
+                workingDuration="(Sep 2020 - Mar 2021)"
+                title="Software Developer (Co-op)"
+                points={[
+                    "Worked as a researcher, developer and tester (TDD) for the new browser extension application",
                     "Designed and Implemented a Microsoft azure database which connects with multiple Point-of-sales system and the middleware along with Shopify",
                     "Tester for the iOS application “The game of things” which is a card game where I focused on breaking the flow and list in JIRA",
                 ]}
@@ -23,7 +44,7 @@ const Experience = () => {
                 <Entity 
                 firmName="CASADIGI"
                 workingDuration="(Aug 2018 - July 2019)"
-                title="Software Developer"
+                title="Software Developer (Full-time)"
                 points={[
                     "Designed UX and implemented the architecture of IoT application using Swift and Objective-C with bridging",
                     "Implemented SQLite and keychain storage along with RSA encryption",
@@ -36,7 +57,7 @@ const Experience = () => {
                 <Entity 
                 firmName="BESTPEERS"
                 workingDuration="(Aug 2017 - July 2018)"
-                title="iOS Developer"
+                title="iOS Developer (Full-time)"
                 points={[
                     "Established an iOS team and led 3 projects",
                     "Implemented a new payment application to build pay-as-you-go service",
@@ -50,7 +71,7 @@ const Experience = () => {
                 <Entity 
                 firmName="SYSTANGO"
                 workingDuration="(June 2015 - July 2017)"
-                title="Associate Software Engineer"
+                title="Associate Software Engineer (Full-time)"
                 points={[
                     "Implemented 15+ projects based on Swift, Objective-C",
                     "Created E-commerce, chat applications and extensive animation apps individually and/or with team",
