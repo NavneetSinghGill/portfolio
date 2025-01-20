@@ -3,7 +3,7 @@ import React from 'react';
 const AboutInfo = () => {
     return (
         <div className='generalIntro'>
-                <h2 className="generalIntro-heading n-left">
+                <h2 className="heading n-left">
                     ABOUT
             </h2>
             <div className="content" style={{flexDirection:"column"}}>

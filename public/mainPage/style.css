@@ -16,16 +16,18 @@
     --footer-color: #f2f2f2;
     --grey-heading: #999999;
     --grey-subheading: #9c9c9c;*/
+    /*    --heading-color: #276BF2;*/
 
-    --heading-color: #276BF2;
-    --content-color: #88ABF2;
+    --heading-color: #2980B9;
+    --subheading-color: color-mix(in hsl, var(--heading-color), black 15%);
+    --content-color: color-mix(in hsl, var(--heading-color), black 40%);
     --footer-color: #f2f2f2;
     --grey-heading: #999999;
     --grey-subheading: #9c9c9c;
 }
 html {
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: sans-serif !important;
 }
 div {
     display: flex;
@@ -76,7 +78,7 @@ body {
 }
 .headerButtonAnimation {
     color: transparent;
-    animation: headerAnimate 15s infinite;
+    animation: headerAnimate 5s alternate infinite;
     background: linear-gradient(to right,#f00, #0f0, #00f);
     -webkit-background-clip: text;
     background-size: 1000%;
@@ -85,11 +87,8 @@ body {
     0% {
         background-position: 0% 0%;
     }
-    50% {
-        background-position: 100% 0%;
-    }
     100% {
-        background-position: 0% 0%;
+        background-position: 100% 0%;
     }
 }
 
@@ -109,7 +108,8 @@ body {
     margin: 0px;
     margin-bottom: 50px;
 }
-.generalIntro-heading {
+.heading {
+    font-family: cursive !important;
     color: var(--heading-color);
     font-size: 3em;
     font-weight: bold;
@@ -118,7 +118,7 @@ body {
     text-align: center;
 }
 .subheading {
-    color: var(--content-color);
+    color: var(--subheading-color);
     font-size: 2em;
     font-weight: normal;
     margin: 0.3em;

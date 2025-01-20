@@ -3,7 +3,7 @@ import React from 'react';
 const generalIntro = () => {
     return (
         <div className='generalIntro'>
-            <h2 className="generalIntro-heading">
+            <h2 className="heading">
                 HELLO, I AM NAVNEET
             </h2>
             <p className="subheading">

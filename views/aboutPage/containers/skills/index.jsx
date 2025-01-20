@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <div className='generalIntro'>
 
-            <h2 className="generalIntro-heading n-left">
+            <h2 className="heading n-left">
                 PROFICIENCIES <div style={{display:"inline", fontWeight:"normal", fontSize:"0.7em"}}>(not limited to..)</div>
             </h2>
 
