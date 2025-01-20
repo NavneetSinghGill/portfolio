@@ -1,5 +1,5 @@
 import React from 'react';
-import TitleAndSupport from '../TitleAndSupport';
+import TitleAndSupport from '../../../common/TitleAndSupport';
 
 const Entity = (props) => {
     return (

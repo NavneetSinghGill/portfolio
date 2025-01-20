@@ -12,7 +12,7 @@ const Entity = (props) => {
     
     return (
         <p className="subheading n-left">
-            <div className="subheading n-left" style={{alignItems:"center"}} >
+            <div className="subheading n-left mocondo" style={{alignItems:"center"}} >
                 <a href={props.link} target='_blank'>
                     <b>{props.name.toUpperCase()}</b> 
                     {/* {props.workingDuration} */}
