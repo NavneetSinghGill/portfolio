@@ -7,7 +7,7 @@ const AboutInfo = () => {
                     ABOUT
                 </h2>
                 <p className="generalIntro-subheading n-left">
-                    I am a passionate self-driven Software Engineer with over <b>6 years</b> of mobile development experience
+                    I am a passionate self-driven Software Engineer with over <b>8 years</b> of mobile development experience
                     I currently live in Mississauga ON Canada.
                 </p>
                 <p className="generalIntro-subheading n-left">
@@ -15,19 +15,19 @@ const AboutInfo = () => {
                     I further worked mostly as an iOS and MERN stack application developer for about 4+ years which drastically improved my problem solving and analytical skills.
                 </p>
                 <p className="generalIntro-subheading n-left">
-                    Later, I pursued a Master of Applied Computing from the University of Windsor and then worked with CIBC and HSBC as a Senior iOS Developer. 
+                Later, I pursued a Master of Applied Computing from the University of Windsor and then worked with CIBC, HSBC and now with <b>TD</b> as a <b>Senior Software Engineer II</b>. 
                 </p>
                 <p className="generalIntro-subheading n-left">
-                    Apart from this I like to spend time reading and experimenting with new techs, and play computer games.
+                    Apart from this I like to spend time reading and experimenting with new techs, doing photo/video editing and play computer games.
                 </p>
-            <div style={{width:"50%", justifyContent: "space-around", marginBottom: "2em"}}>
+            <div style={{ flexWrap: "wrap", width: "70%", justifyContent: "space-around", marginBottom: "2em"}}>
                 <a 
                 href="mailto:navneet105gill@gmail.com?subject=Hello!" 
                 target="_blank" 
                 title="Email" 
                 className="fa fa-envelope fa-5x social-media-icon"></a>
                 <a 
-                href="https://www.linkedin.com/in/navneet-singh-gill-9a113aa9/" 
+                href="https://www.linkedin.com/in/navneet-singh-gill" 
                 target="_blank" 
                 title="LinkedIn" 
                 className="fa fa-linkedin fa-5x social-media-icon" ></a>

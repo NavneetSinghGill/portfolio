@@ -7,7 +7,7 @@ const generalIntro = () => {
                 HELLO, I AM NAVNEET
             </h2>
             <p className="generalIntro-subheading">
-                You can usually find me writing code, cooking, playing chess and computer games.
+                You can usually find me writing code, creating photo/video edits and playing computer games.
             </p>
         </div>
     );

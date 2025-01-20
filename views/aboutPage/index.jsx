@@ -19,8 +19,8 @@ const AboutPage = (props) => {
         <Header />
         <AboutInfo />
         <Skills />
-        <Education />
         <Experience />
+        <Education />
         <Projects />
         <Certifications />
       </div>

@@ -71,7 +71,7 @@ body {
 .headerButtonAnimation {
     color: transparent;
     animation: headerAnimate 15s infinite;
-    background: linear-gradient(to right,#f00, #0ff, #0f0, #00f);
+    background: linear-gradient(to right,#f00, #0f0, #00f);
     -webkit-background-clip: text;
     background-size: 1000%;
 }
@@ -106,7 +106,7 @@ body {
 .generalIntro-heading {
     color: var(--heading-color);
     font-size: 3em;
-    font-weight: normal;
+    font-weight: bold;
     margin: 0.5em;
     margin-top: 1.5em;
     text-align: center;

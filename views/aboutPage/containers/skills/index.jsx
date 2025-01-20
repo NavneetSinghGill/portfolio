@@ -6,7 +6,7 @@ const Skills = () => {
         <div className='generalIntro'>
 
             <h2 className="generalIntro-heading n-left">
-                PROFICIENCIES
+                PROFICIENCIES <div style={{display:"inline", fontWeight:"normal", fontSize:"0.7em"}}>(not limited to..)</div>
             </h2>
 
             <Entity 

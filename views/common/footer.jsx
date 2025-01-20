@@ -7,7 +7,7 @@ const footer = () => {
                 <h3 className="footer-heading">GET IN TOUCH</h3>
                 <p className="footer-content">
                     You can either send me a message on
-                    <a href="https://www.linkedin.com/in/navneet-singh-gill-9a113aa9/" target="_blank"> LinkedIn </a>
+                    <a href="https://www.linkedin.com/in/navneet-singh-gill" target="_blank"> LinkedIn </a>
                 </p>
                 <p className="footer-content">
                     or drop an email on
