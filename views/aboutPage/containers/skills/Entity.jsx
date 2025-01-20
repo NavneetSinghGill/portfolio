@@ -1,10 +1,13 @@
 import React from 'react';
+import TitleAndSupport from '../TitleAndSupport';
 
 const Entity = (props) => {
     return (
         <p className="subheading n-left">
-            <b>{props.title.toUpperCase()}</b>
-            <p className="subheading n-left n-noMarginPadding">{props.values}</p>
+            <TitleAndSupport
+                title={props.title.toUpperCase()}
+            />
+            <p className="content n-left n-noMarginPadding">{props.values}</p>
         </p>
     );
 }

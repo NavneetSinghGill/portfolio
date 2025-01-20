@@ -1,17 +1,17 @@
 import React from 'react';
+import TitleAndSupport from '../TitleAndSupport';
 
 const Entity = (props) => {
     return (
-        <p className="n-left n-noMarginPadding" style={{ textAlign: "left", background:"#333" }}>
-            <div className="subheading n-left n-noMarginPadding">
-                <b className="n-left n-noMarginPadding">{props.firmName.toUpperCase()}</b>
-                <span className="subheading-support n-left">{props.workingDuration}</span>
-            </div>
-
-            <div className="subheading n-left n-noMarginPadding">
-                <b className="n-left n-noMarginPadding">{props.title}</b>
-                <span className="subheading-support n-left">{props.type}</span>
-            </div>
+        <p>
+            <TitleAndSupport
+                title={props.firmName.toUpperCase()}
+                support={props.workingDuration}
+            />
+            <TitleAndSupport
+                title={props.title}
+                support={props.type}
+            />
 
             <ul className="content n-left">
                 {

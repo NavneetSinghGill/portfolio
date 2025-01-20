@@ -12,7 +12,7 @@ const Entity = (props) => {
     
     return (
         <p className="subheading n-left">
-            <div className="subheading n-left">
+            <div className="subheading n-left" style={{alignItems:"center"}} >
                 <a href={props.link} target='_blank'>
                     <b>{props.name.toUpperCase()}</b> 
                     {/* {props.workingDuration} */}
@@ -20,9 +20,9 @@ const Entity = (props) => {
                 {githubElement}
                 {appstoreElement}
             </div>
-            <p className="subheading n-left n-noMarginPadding">Skills: {props.skills}</p>
-            <p className="subheading n-left n-noMarginPadding">{props.description}</p>
-            <ul className="subheading n-left">
+            <p className="content n-left n-noMarginPadding">Skills: {props.skills}</p>
+            {/*<p className="content n-left n-noMarginPadding">{props.description}</p>*/}
+            <ul className="content n-left">
                 {
                     props.points.map((point) => {
                         return <li key={point}>{point}</li>
