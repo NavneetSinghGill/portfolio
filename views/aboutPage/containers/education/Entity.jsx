@@ -2,9 +2,9 @@ import React from 'react';
 
 const Entity = (props) => {
     return (
-        <p className="generalIntro-subheading n-left">
+        <p className="subheading n-left">
             <b>{props.title.toUpperCase()}</b> {props.workingDuration}
-            <p className="generalIntro-subheading n-left n-noMarginPadding">{props.firmName}</p>
+            <p className="subheading-support n-left n-noMarginPadding">{props.firmName}</p>
         </p>
     );
 }
