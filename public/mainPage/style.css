@@ -98,13 +98,12 @@ body {
     width: 100%;
 }
 .generalIntro {
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background-color: yellow; */
     flex-grow: 1;
-    width: 100%;
+    width: 70%;
     height: 100%;
     margin: 0px;
     margin-bottom: 50px;
@@ -127,13 +126,13 @@ body {
     font-weight: normal;
     margin: 0.3em;
     text-align: center;
-    width: 70%;
+    width: 100%;
 }
 .subheading-support {
     color: var(--content-color);
     font-size: 0.7em;
     font-weight: normal;
-    margin: 0.3em   ;
+    margin: 0.3em;
     align-items: center;
 }
 .content {
@@ -141,9 +140,12 @@ body {
     font-size: 1.5em;
     font-weight: normal;
     margin: 0.3em;
-    text-align: center;
-    width: 70%;
-    align-items: center;
+}
+.noWidth {
+    width: none;
+}
+.fullWidth {
+    width: 100%;
 }
 .footer {
     background-color: var(--footer-color);

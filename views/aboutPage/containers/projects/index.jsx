@@ -54,6 +54,8 @@ const Projects = () => {
                 skills="iOS, Swift, IoT, Socket, Git, Swift, Autolayout, RSA, VIPER, MVC, MVVM"
                 link='https://apps.apple.com/us/app/casadigi-3-0/id1487106225'
                 appstore='https://apps.apple.com/us/app/casadigi-3-0/id1487106225'
+                linkedin='https://www.linkedin.com/company/casadigi-official/?originalSubdomain=in'
+                website='https://www.casadigi.com/'
                 points = {[
                     "Designed UX and implemented the architecture of IoT application using Swift and Objective-C with bridging header",
                     "Spatial reasoning in designing and building the IoT application architecture with 1 touch access in mind",
@@ -80,8 +82,9 @@ const Projects = () => {
                 workingDuration="Fall 2018"
                 skills="AWS S3, Audio/video rendering, Swift, iOS, Git"
                 link='https://apps.apple.com/gb/app/mental-snapp/id1187218345'
-                github="https://github.com/NavneetSinghGill/MentalSnapp"
-                appstore="https://apps.apple.com/gb/app/mental-snapp/id1187218345"
+                github='https://github.com/NavneetSinghGill/MentalSnapp'
+                appstore='https://apps.apple.com/gb/app/mental-snapp/id1187218345'
+                linkedin='https://www.linkedin.com/company/mental-snapp/people/'
                 points = {[
                     "Implemented audio/video to record the emotion of patients",
                     "Added Chat functionality to let doctors assist patients and used AWS-S3 for storage and analysis",
@@ -94,9 +97,23 @@ const Projects = () => {
                 name="SpiralPay"
                 workingDuration="2017"
                 skills="Swift, VIPER, Facial recognition, Ecommerce, Inventory, QR Scan"
+                linkedin='https://www.linkedin.com/showcase/spiralpay/about/'
                 points = {[
                     "Designed and developed this payment gateway application where users can do payment on the go just by scanning the products QR.",
                     "Implemented functional ecommerce platform inclusive of Microsoft backend database",
+                ]}
+            />
+
+            <Entity
+                name="Hamperville"
+                workingDuration="Winter 2016"
+                skills="Objective-C, RestFul APIs, Classical design"
+                link='https://github.com/NavneetSinghGill/Hamperville'
+                github="https://github.com/NavneetSinghGill/Hamperville"
+                points={[
+                    "Implement this Laundry app which included pickup, drop-off options with traditional app design",
+                    "Created 10+ pixel-perfect screens with pleasing designs for user engagement",
+                    "Gather and filter requirements to include only the most suitable information in the best way possible",
                 ]}
             />
             
@@ -110,19 +127,6 @@ const Projects = () => {
                     "Created iCloud based backed to store user data making it independent of any other technology than iOS",
                     "Implemented smooth animations using UIImageView and components for reusability",
                     "Used developer portal to design the database for CRUD operations",
-                ]}
-            />
-
-            <Entity 
-                name="Hamperville"
-                workingDuration="Winter 2016"
-                skills="Objective-C, RestFul APIs, Classical design"
-                link='https://github.com/NavneetSinghGill/Hamperville'
-                github="https://github.com/NavneetSinghGill/Hamperville"
-                points = {[
-                    "Implement this Laundry app which included pickup, drop-off options with traditional app design",
-                    "Created 10+ pixel-perfect screens with pleasing designs for user engagement",
-                    "Gather and filter requirements to include only the most suitable information in the best way possible",
                 ]}
             />
 

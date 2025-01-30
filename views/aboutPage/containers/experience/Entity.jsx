@@ -13,7 +13,7 @@ const Entity = (props) => {
                 support={props.type}
             />
 
-            <ul className="content n-left">
+            <ul className="content fullWidth">
                 {
                     props.points.map((point) => {
                         return <li key={point}>{point}</li>

@@ -4,8 +4,8 @@ const generalIntro = () => {
     return (
         <div className='generalIntro'>
             <div style={{alignItems: "baseline"}}>
-                <h2 className="subheading">
-                    HELLO, I AM
+                <h2 className="subheading indianFont">
+                    Hello, I am
                 </h2>
                 <h2 className="heading indianFont">
                     Navneet
